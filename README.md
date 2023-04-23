@@ -1,6 +1,4 @@
-# Quasar App (quasar-project)
-
-A Quasar Project
+# It's searchkit quasar example
 
 ## Install the dependencies
 ```bash
@@ -14,15 +12,11 @@ npm install
 quasar dev
 ```
 
+### Open /search page and see that everything works like in example https://zq874l.sse.codesandbox.io/
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
+### Main integration in boot/searchkit.ts file and main code in pages/SearchPage.vue
+### You can see a little difference in left side menu its because i changed native checkbox to custom template with quasar chip
+### And you can see that searchkit can be integrate in quasar app
 
 ### Build the app for production
 ```bash
